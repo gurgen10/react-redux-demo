@@ -24,7 +24,7 @@ const mapDispatchToProps =  dispatch=> {
     return {
         buyCake:() => {
             
-            dispatch(buyCake)
+            dispatch(buyCake())
         }
     }
 
